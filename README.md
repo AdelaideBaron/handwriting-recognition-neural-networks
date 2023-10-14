@@ -1,23 +1,17 @@
-# Simple-Neural-Network
-A perceptron neural network, using machine learning to correctly classify. 
+# Mathematics of Image Processing and Recognition 
+Final year project for BSc Mathematics at the University of Lincoln, for which I received 80% (first), and a first class honours 
 
-A simple neural network, used to demonstrate supervised learning as part of my undergraduate final project: The Mathematics of Image Processing and Recognition. 
+This repository contains the research project, and the small code to supplement it. It is worth noting that coding was not something studied before this project, and focussed more on the mathematics. 
 
-### How it works: 
-- Two input neurons, one output. 
-  - {Input 1, Input 2, Expected Output}: 
-  - {1,1,1}
-  - {1,0,1}
-  - {0,1,1}
-  - {0,0,0}
-- Initial random weights, and a bias, are assigned
-- Comparing the expected output with the actual, gradient descent is used to make adjustments to weights and bias 
-- Loop 5000 times, but can be edited (time dependant)
+However, I am working on an extension to the project, and developing a neural network further. This ongoing work can be found within 'extension'. 
 
+### Overview of directories and files: 
+* Project.pdf - pdf version of the final project. 
 
-To be refactored using principles of OOP, and SOLID design. 
+_undergraduateProject_: 
+* finalProject - all contents of final project Tex file. 
+* supportingDocuments - research plan, and sobel poster - referenced in the project. 
+* simpleNeuralNetwork - the C++ code used intially in my project.
 
-_Project will be linked once marking has completed at the University of Lincoln (Late summer 2022)_ 
-
-
-  
+_extension:_
+* ongoing project, building upon the undergraduate project. 
